@@ -65,9 +65,9 @@ const App: React.FC = () => {
       <div className="w-full max-w-2xl">
         <header className="mb-10 text-center">
           <h1 className="text-5xl sm:text-7xl font-bold tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 animate-pulse-slow">
-            TASKGLOW
+            TODO APP
           </h1>
-          <p className="mt-3 text-indigo-300 text-lg">Illuminate your productivity path.</p>
+          <p className="mt-3 text-indigo-300 text-lg">Your new productivity partner.</p>
         </header>
 
         <AddTodoForm
@@ -87,7 +87,7 @@ const App: React.FC = () => {
             </p>
           )}
           {todos.length === 0 && (
-            <p className="p-8 text-center text-indigo-400 text-lg">System idle. Input new task directive.</p>
+            <p className="p-8 text-center text-indigo-400 text-lg">System idle. Input new todo.</p>
           )}
           <ul className="divide-y divide-purple-500/20">
             {filteredTodos.map((todo, index) => (

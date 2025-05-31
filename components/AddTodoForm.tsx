@@ -19,7 +19,7 @@ export const AddTodoForm: React.FC<AddTodoFormProps> = ({ value, onChange, onAdd
         type="text"
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        placeholder="Initiate new task directive..."
+        placeholder="Initiate new todo..."
         className="flex-grow bg-transparent text-slate-100 placeholder-indigo-400/70 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:border-cyan-400 rounded-lg transition-all"
         aria-label="New todo text"
       />

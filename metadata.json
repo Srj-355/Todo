@@ -1,0 +1,5 @@
+{
+  "name": "Simple Todo App",
+  "description": "A sleek and responsive todo application to help you manage your daily tasks with ease. Built with React, TypeScript, and Tailwind CSS.",
+  "requestFramePermissions": []
+}
